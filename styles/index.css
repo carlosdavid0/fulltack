@@ -1,0 +1,40 @@
+body{
+    background-color: #6900EA;
+}
+
+main h3{
+    font-weight: lighter;
+    font-size: 4.5rem;
+    max-width: 560px;
+}
+.visual {
+    display: none;
+}
+button{
+    font-size: 15rem;
+}
+.footer{
+    font-size: x-small;
+    color: #f9f9f9;
+}
+
+
+
+@media (min-width: 760px) {
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main h3{
+    font-size: 4rem;
+    max-width: 500px;
+}
+.visual{
+    display: inline;
+}
+.visual img{
+    width: 32rem;
+}
+
+}
